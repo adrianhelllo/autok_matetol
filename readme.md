@@ -38,7 +38,7 @@ Készítsd el a mintának megfelelő oldalt:
     - színe orange;
     - ne legyen aláhúzva
     - a belső margó legyen 20px (padding: 20px;)
-    - a külső margó legyen 30px (padding: 30px;)
+    - a külső margó legyen 30px (margin: 30px;)
     - legyen szegélye! (border:10px solid orange;)
     - border-radius: 50%;
     - háttérszíne:  rgb(50, 48, 48);
