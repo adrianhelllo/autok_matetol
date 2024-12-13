@@ -38,6 +38,8 @@ h2 {
     color: rgb(50, 48, 48);
     padding: 30px;
     border-radius: 50%;
+    border: 10px solid rgb(50, 48, 48);
+    background-color: grey;
 }
 
 p {
