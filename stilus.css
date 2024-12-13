@@ -1,3 +1,14 @@
+nav {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 115, 0, 0.555);
+  z-index: 10;
+}
+
+a.active {
+  border-bottom: 2px solid orange;
+}
+
 body {
   background-color: black;
   background-image: url(kepek/auto_background_14.jpg);
@@ -54,3 +65,19 @@ a:hover {
   border: 10px solid green;
   color: green;
 }
+
+p:hover {
+  color: orange;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    color: rgb(255, 255, 255);
+  }
+  to {
+    color: orange;
+  }
+}
+
+
